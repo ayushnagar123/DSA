@@ -13,17 +13,13 @@ void reverse_array(int l, int arr[]){
 }
 
 int main() {
-  int l;
-  cin>>l;
-  int arr[l];
-  for(int i=0;i<l;i++){
-    cin>>arr[i];
-  }
+  int arr[]={1,2,3,5,4};
+  int l = sizeof(arr)/sizeof(arr[0]);
   cout<<"input array: \n";
   print_array(l, arr);
 
   reverse_array(l, arr);
   
-  cout<<"output array: ";
+  cout<<"output array: \n";
   print_array(l, arr);
 }
