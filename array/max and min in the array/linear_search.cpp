@@ -1,15 +1,11 @@
 #include <iostream>
-#include "./../../helper_functions/array_helpers.cpp"
-#define MAX_INT 100000000
+#include "./../../helpers/array_helpers.cpp"
+#include "./helpers/question_helpers.cpp"
 using namespace std;
 
-struct Pair {
-  int min;
-  int max;
-};
-
-struct Pair find_max_and_min(int l, int arr[]) {
-  struct Pair minmax;
+template<typename T>
+class Pair<T> find_max_and_min(int l, T arr[]) {
+  class Pair<T> minmax;
   if(l==1){
     minmax.min = arr[0];
     minmax.max = arr[0];
@@ -37,10 +33,11 @@ struct Pair find_max_and_min(int l, int arr[]) {
 int main() {
   int arr[]={1,2,3,5,4};
   int l = sizeof(arr)/sizeof(arr[0]);
+  Array<int> a(l, arr);
   cout<<"input: ";
-  print_array(l, arr);
+  a.print_array(l, arr);
 
-  struct Pair minmax = find_max_and_min(l, arr);
+  class Pair<int> minmax = find_max_and_min(l, arr);
   
   cout<<"output: \nmax: "<<minmax.max<<"\nmin: "<<minmax.min<<endl;
 }

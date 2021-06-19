@@ -1,6 +1,6 @@
 #include <iostream>
-#include "./../../helper_functions/operations_helpers.cpp"
-#include "./../../helper_functions/array_helpers.cpp"
+#include "./../../helpers/operations_helpers.cpp"
+#include "./../../helpers/array_helpers.cpp"
 using namespace std;
 
 void reverse_array(int l, int arr[]){
@@ -15,11 +15,12 @@ void reverse_array(int l, int arr[]){
 int main() {
   int arr[]={1,2,3,5,4};
   int l = sizeof(arr)/sizeof(arr[0]);
+  Array<int> a(l, arr);
   cout<<"input array: \n";
-  print_array(l, arr);
+  a.print_array(l, arr);
 
   reverse_array(l, arr);
   
   cout<<"output array: \n";
-  print_array(l, arr);
+  a.print_array(l, arr);
 }
