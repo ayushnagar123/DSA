@@ -3,10 +3,12 @@
 #include "./../../helpers/array_helpers.cpp"
 using namespace std;
 
+template<typename T>
 void reverse_array(int l, int arr[]){
+  Operations<T> o;
   int s = 0, e = l-1;
   while(s<e){
-    swap(arr[s],arr[e]);
+    o.swap(arr[s],arr[e]);
     s++;
     e--;
   }
@@ -19,7 +21,7 @@ int main() {
   cout<<"input array: \n";
   a.print_array(l, arr);
 
-  reverse_array(l, arr);
+  reverse_array<int>(l, arr);
   
   cout<<"output array: \n";
   a.print_array(l, arr);
