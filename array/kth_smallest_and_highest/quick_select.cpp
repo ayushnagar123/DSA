@@ -42,7 +42,7 @@ int main() {
   Array<int> a(l, arr);
   cout<<"input array: \n";
   a.print_array(l, arr);
-  int k = 7;
+  int k = 2;
   cout<<"output array: "<<endl;
   cout<<k<<"th min = "<<kth_smallest<int>(arr, 0, l-1, k)<<endl;
   cout<<k<<"th max = "<<kth_smallest<int>(arr, 0, l-1, l - k + 1)<<endl;
