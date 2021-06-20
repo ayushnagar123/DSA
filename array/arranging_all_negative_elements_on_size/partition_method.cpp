@@ -22,11 +22,11 @@ int main() {
     Array<int> a(l, arr);
 
     cout<<"input:\n";
-    a.print_array(l, arr);
+    a.print_array();
 
     arrange_array_negative_elements_on_side<int>(l, arr);
 
     cout<<"output:\n";
-    a.print_array(l, arr);
+    a.print_array();
     return 0;
 }

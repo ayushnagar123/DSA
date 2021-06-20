@@ -41,7 +41,7 @@ int main() {
   int l = sizeof(arr)/sizeof(arr[0]);
   Array<int> a(l, arr);
   cout<<"input array: \n";
-  a.print_array(l, arr);
+  a.print_array();
   int k = 2;
   cout<<"output array: "<<endl;
   cout<<k<<"th min = "<<kth_smallest<int>(arr, 0, l-1, k)<<endl;
