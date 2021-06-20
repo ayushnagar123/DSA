@@ -1,18 +1,136 @@
 # DSA
 ## Array
- - [X] 1. Reverse an array
- - [X] 2. (a) Find min max in an array using **linear search method**
- - [X] 2. (b) Find min max in an array using **tournament method**
- - [X] 2. (c) Find min max in an array using **pair comparision method**
- - [X] 3. Find kth smallest and highest element in an array
- - [X] 4. Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo
- - [X] 5. (a) arramge all negative elements on one side using **partition method**
- - [X] 5. (b) arramge all negative elements on one side using **two pointers method**
- - [X] 6. Array union and intersection
+<table border = 1>
+    <tr>
+        <th>S.No.</th>
+        <th>Problem</th>
+        <th>Approach</th>
+        <th>Time complexity</th>
+        <th>Space complexity</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>1. </td>
+        <td> Reverse an array</td>
+        <td> Two pointer method</td>
+        <td>O(n)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>2. (a) </td>
+        <td> Find min max in an array</td>
+        <td> linear search method</td>
+        <td>O(n)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>2. (b) </td>
+        <td> Find min max in an array</td>
+        <td> tournament method</td>
+        <td>O(n)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>2. (c) </td>
+        <td> Find min max in an array</td>
+        <td> pair comparision method</td>
+        <td>O(n)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>3. </td>
+        <td> Find kth smallest and highest element in an array</td>
+        <td> Partition method</td>
+        <td>O(n<sup>2</sup>)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>4. </td>
+        <td> Given an array which consists of only 0, 1 and 2.</td>
+        <td> Three pointer approach</td>
+        <td>O(n)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>5. (a) </td>
+        <td> Arrange all negative elements on one side</td>
+        <td> Partition method</td>
+        <td>O(n)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>5. (b) </td>
+        <td> Arrange all negative elements on one side</td>
+        <td> Two pointers method</td>
+        <td>O(n)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>5. (b) </td>
+        <td> Arrange union and intersecion count.</td>
+        <td> Pointers method</td>
+        <td>O(n1+n2)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+</table>
 
 ## Sorting
- - [X] 1. Bubble sort
- - [X] 2. Selection sort
- - [X] 3. Insertion sort
- - [X] 4. Quick sort
- - [X] 5. Merge sort
+<table border=1>
+    <tr>
+        <th>S.No.</th>
+        <th>Problem</th>
+        <th>Approach</th>
+        <th>Time complexity</th>
+        <th>Space complexity</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>1. </td>
+        <td> Bubble sort</td>
+        <td> </td>
+        <td>O(n<sup>2</sup>)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>2. </td>
+        <td> Selection sort</td>
+        <td> </td>
+        <td>O(n<sup>2</sup>)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>3. </td>
+        <td> Insertion sort</td>
+        <td> </td>
+        <td>O(n<sup>2</sup>)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>4. </td>
+        <td> Quick sort</td>
+        <td> Partition method</td>
+        <td>O(n<sup>2</sup>)</td>
+        <td>O(1)</td>
+        <td> ✅ </td> 
+    </tr>
+    <tr>
+        <td>5. </td>
+        <td> Merge sort</td>
+        <td> Divide and conquer</td>
+        <td>O(nlogn)</td>
+        <td>O(n)</td>
+        <td> ✅ </td> 
+    </tr>
+</table>

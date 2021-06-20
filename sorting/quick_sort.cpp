@@ -42,11 +42,11 @@ int main() {
   int l = sizeof(arr)/sizeof(arr[0]);
   Array<int> a(l, arr);
   cout<<"input array: \n";
-  a.print_array(l, arr);
+  a.print_array();
 
   quick_sort(arr, 0, l-1, false);
   
   cout<<"output array: \n";
-  a.print_array(l, arr);
+  a.print_array();
   return 0;
 }

@@ -19,10 +19,10 @@ int main() {
   int l = sizeof(arr)/sizeof(arr[0]);
   Array<int> a(l, arr);
   cout<<"input array: \n";
-  a.print_array(l, arr);
+  a.print_array();
 
   reverse_array<int>(l, arr);
   
   cout<<"output array: \n";
-  a.print_array(l, arr);
+  a.print_array();
 }

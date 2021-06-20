@@ -37,7 +37,7 @@ int main() {
   int l = sizeof(arr)/sizeof(arr[0]);
   Array<double> a(l, arr);
   cout<<"input: ";
-  a.print_array(l, arr);
+  a.print_array();
 
   class Pair<double> minmax = find_max_and_min<double>(arr, 0, l-1);
   

@@ -50,7 +50,7 @@ int main() {
   int l = sizeof(arr)/sizeof(arr[0]);
   Array<string> a(l, arr);
   cout<<"input: ";
-  a.print_array(l, arr);
+  a.print_array();
 
   class Pair<string> minmax = find_max_and_min<string>(l, arr);
   
