@@ -1,6 +1,6 @@
 # DSA
 ## Array
-<table border = 1>
+<table>
     <tr>
         <th>S.No.</th>
         <th>Problem</th>
@@ -74,7 +74,7 @@
         <td> ✅ </td> 
     </tr>
     <tr>
-        <td>5. (b) </td>
+        <td>6. </td>
         <td> Arrange union and intersecion count.</td>
         <td> Pointers method</td>
         <td>O(n1+n2)</td>
@@ -84,7 +84,7 @@
 </table>
 
 ## Sorting
-<table border=1>
+<table>
     <tr>
         <th>S.No.</th>
         <th>Problem</th>
