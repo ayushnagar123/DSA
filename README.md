@@ -1,4 +1,13 @@
 # DSA
+## Study Material
+* [Narasimha Karumanchi Data Structure and Algorithms made easy](https://drive.google.com/file/d/1nu5WsKpf4VYciFOZXssn5YTPwcfNL3DG/view?usp=sharing)
+* [Love bubbar 450 questions pdf](https://450dsa.com/)
+* [500+ DSA question](https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems-35afe8a1e222)
+
+## Topic wise
+* [Asymtotic Notation](https://www.interviewbit.com/courses/programming/topics/time-complexity/)
+* [Array](https://www.interviewbit.com/courses/programming/topics/arrays/)
+
 ## Array
 <table>
     <tr>
